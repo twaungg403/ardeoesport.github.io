@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title></title>
+
+</head>
+
+<style type="text/css">
+
+html,
+
+body{
+
+  height: 100%;
+
+}
+
+h1{
+
+  margin:0;
+
+  padding:0;
+
+  text-align:center;
+
+  color: #1e81b0;
+
+  }
+
+  img{
+
+  margin : 0px;
+
+  padding : 0px;
+
+  height:250px;
+
+  width:250px;
+
+  }
+
+body {
+
+  margin: 0;
+
+  background: #e0e5ec;
+
+  font-family: Helvetica;
+
+  font-weight: 1050;
+
+  color: #fdc202 ;
+
+}
+
+.container {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+}
+
+table.neumorphic{
+
+  width: 500px;
+
+  border-spacing: 0;
+
+  color: #fdc202;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+
+  -9px -9px 16px rgba(255, 255, 255, 0.6);
+
+}
+
+table.neumorphic thead{
+
+  box-shadow: 9px 9px 100px rgba(163, 177, 198, 0.6);
+
+  color: #fdc202;
+
+}
+
+table.neumorphic th{
+
+  padding: 25px;
+
+  font-size : 30px;
+
+  }
+
+  
+
+  table.neumorphic>tbody>tr>td {
+
+  padding: 17px;
+
+  font-size: 30px;
+
+  position: relative;
+
+  }
+
+  
+
+  
+
+  table.neumorphic>tbody>tr:hover {
+
+  padding: 20px;
+
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+
+  -9px -9px 16px rgba(255, 255, 255, 0.6);
+
+  }
+
+  
+
+  table.neumorphic tr td:first-child::before {
+
+  content: "";
+
+  position: absolute;
+
+  padding: 0px;
+
+  top: 0;
+
+  left: -5000px;
+
+  width: 10000px;
+
+  height: 100%;
+
+  z-index: -10;
+
+  }
+
+  
+
+  table.neumorphic td:hover::after {
+
+  content: "";
+
+  position: absolute;
+
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+
+  -9px -9px 16px rgba(255, 255, 255, 0.6);
+
+  left: 0;
+
+  top: -5000px;
+
+  height: 10000px;
+
+  width: 100%;
+
+  z-index: -1;
+
+  }
+
+</style>
+
+<body>
+
+<h1>
+
+Ardeo - Microservice
+
+</h1>
+
+<div class="container">
+
+  <table class="neumorphic">
+
+	<thead>	  <tr>
+
+	    <th>Amount 💎</th>
+
+	    <th>Price</th>
+
+	    
+
+	  </tr>
+
+	</thead>
+
+	<tbody>
+
+	  <tr>
+
+	    <td>💎86</td>
+
+	    <td>3700 MMK</td>
+
+	  
+
+	  </tr>
+
+	  <tr>
+
+	    <td>Cell 1</td>
+
+	    <td>Cell 2</td>
+
+	    
+
+	  </tr>
+
+	  <tr>
+
+	    <td>Cell 1</td>
+
+	    <td>Cell 2</td>
+
+	    
+
+	  </tr>
+
+	  <tr>
+
+	    <td>Cell 1</td>
+
+	    <td>Cell 2</td>
+
+	   
+
+	  </tr>
+
+	  <tr>
+
+	    <td>Cell 1</td>
+
+	    <td>Cell 2</td>
+
+	    
+
+	  </tr>
+
+	</tbody>
+
+  </table>
+
+</div>
+
+<center>
+
+<img src="https://imagecolorpicker.com/imagecolorpicker.png">
+
+</center>
+
+</body>
+
+</html>
